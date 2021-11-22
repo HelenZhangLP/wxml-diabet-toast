@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "helenzhang1201",
-  "license": "ISC"
+  "license": "ISC",
+  "publishConfig": {
+    "@HelenZhangLP:registry": "https://npm.pkg.github.com"
+  }
 }
+
