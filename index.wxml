@@ -1,0 +1,5 @@
+<!--components/diabetToast/index.wxml-->
+<view class="toast-wrap" show="{{show}}">
+    <image src="{{icon}}" style="width: 80rpx; height: 80rpx;"></image>
+    <view class="text text-ellipsis text-multi-ellipsis-2 mt-15">{{message}}</view>
+</view>
