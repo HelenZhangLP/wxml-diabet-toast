@@ -1,6 +1,4 @@
 {
   "component": true,
-  "usingComponents": {
-    "van-toast": "@vant/weapp/toast/index"
-  }
+  "usingComponents": {}
 }
