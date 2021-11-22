@@ -1,5 +1,5 @@
 {
-  "name": "diabet-toast",
+  "name": "wxml-diabet-toast",
   "version": "1.0.1",
   "description": "",
   "main": "index.js",
@@ -7,10 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "helenzhang1201",
+  "author": "HelenZhangLP",
   "license": "ISC",
   "publishConfig": {
-    "@HelenZhangLP:registry": "https://npm.pkg.github.com"
+    "@helenzhang1201:registry": "https://npm.pkg.github.com"
   }
 }
 
