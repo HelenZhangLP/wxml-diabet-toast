@@ -10,7 +10,7 @@
   "author": "HelenZhangLP",
   "license": "ISC",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@HelenZhangLP"
+    "@HelenZhangLP:registry": "https://npm.pkg.github.com"
   }
 }
 
