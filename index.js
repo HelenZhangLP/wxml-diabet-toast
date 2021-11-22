@@ -1,43 +1,31 @@
-// components/diabetToast/index.js
-import { commonImg } from '../../config/imgConf'
-Component({
-  /**
-   * Component properties
-   */
-  options: {
-    addGlobalClass: true,
-  },
-  properties: {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var component_1 = require("./component");
+(0, component_1.VantComponent)({
+  props: {
     show: Boolean,
     mask: Boolean,
+    message: String,
+    forbidClick: Boolean,
+    zIndex: {
+      type: Number,
+      value: 1000,
+    },
     type: {
       type: String,
-      default: '',
-      observers: function(val) {
-        if(val === 'info') {
-          this.setData({
-            icon: commonImg.icon_toast_info
-          })
-        }
-      }
+      value: 'text',
     },
-    text: {
+    loadingType: {
       type: String,
-      default: ''
-    }
+      value: 'circular',
+    },
+    position: {
+      type: String,
+      value: 'middle',
+    },
   },
-
-  /**
-   * Component initial data
-   */
-  data: {
-    icon: commonImg.icon_toast_success
-  },
-
-  /**
-   * Component methods
-   */
   methods: {
-
-  }
-})
+    // for prevent touchmove
+    noop: function () { },
+  },
+});
