@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.VantComponent = void 0;
+exports.DiabetComponent = void 0;
 var basic_1 = require("./basic");
 function mapKeys(source, target, map) {
   Object.keys(map).forEach(function (key) {
@@ -9,7 +9,7 @@ function mapKeys(source, target, map) {
     }
   });
 }
-function VantComponent(vantOptions) {
+function DiabetComponent(vantOptions) {
   var options = {};
   mapKeys(vantOptions, options, {
     data: 'data',
@@ -45,4 +45,4 @@ function VantComponent(vantOptions) {
   };
   Component(options);
 }
-exports.VantComponent = VantComponent;
+exports.DiabetComponent = DiabetComponent;
