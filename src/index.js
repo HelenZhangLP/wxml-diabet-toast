@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var component_1 = require("./component");
+var component_1 = require("../component");
 (0, component_1.DiabetComponent)({
   props: {
     show: Boolean,
